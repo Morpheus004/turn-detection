@@ -1,0 +1,55 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches & Tool Artifacts
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Weights & Biases
+wandb/
+
+# Hugging Face & Dataset Caches
+.cache/
+hf_cache/
+datasets_cache/
+data/
+
+# Model Checkpoints & Large Weights
+checkpoints/*.pt
+checkpoints/*.bin
+checkpoints/*.onnx
+checkpoints/*.safetensors
+!checkpoints/.gitkeep
+
+# Evaluation Results & Plots
+results_plots/*.png
+
+# Audio files
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.m4a
+*.parquet
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System Files
+.DS_Store
+Thumbs.db
